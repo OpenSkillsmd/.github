@@ -1,9 +1,9 @@
 ## Hi there 👋
 
-### 我们的使命 (Our Mission)
+### 我们的使命 
 OpenSkillMD 致力于构建全球领先的 AI Agent 技能注册表与分发平台。我们通过标准化的 skill.md 规范，打破 Prompt 与 Agent 技能之间的孤岛，让开发者能够像管理 Docker 镜像一样管理 AI 技能。
 
-### 核心愿景 (The Vision)
+### 核心愿景
 标准化 (Standardization)： 定义一套通用的 skill.md 协议，让每一项 Agent 技能都具备版本控制、参数定义与环境适应性。
 
 无缝分发 (Seamless Distribution)： 建立类似于 pull 和 push 的分发机制，实现 Agent 技能的一键下载与即插即用。
