@@ -12,13 +12,10 @@ OpenSkillsmd 是一个面向 AI Agent 技能的开源基础设施。我们不仅
 ### 核心口号
 "Pull high-quality skills, Edit the future of Agents." 
 
-<!--
 
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## 仓库
+最终仓库名,角色,核心职责
+skillsmd,命令行入口,用户安装的二进制工具，负责所有本地操作。
+skillsmd-hub,分发中心,类似 Docker Registry，负责 Skill 的版本管理与 API。
+skillsmd-wiki,知识协作库,类似 Wikipedia 词条，存放可读性强、按分类组织的 Markdown。
+skillsmd-judge,评估引擎,AI 自动化打分与认证，为优质 Skill 颁发 Badge。
