@@ -1,6 +1,6 @@
 # OpenSkillsmd: Redefining the Evolution of AI Agents
 
-[English](./README.md) | [简体中文](./README.zh.md) | [日本語](./README.ja.md) | [Français](./README.fr.md)
+[English](./README.md) | [简体中文](./README.zh.md) | [日本語](./README.ja.md) 
 
 OpenSkillsmd is an open-source infrastructure for AI Agent skills. We serve a dual purpose: the **Docker Hub** for distribution and the **Wikipedia** for collective intelligence.
 
