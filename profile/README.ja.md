@@ -1,6 +1,6 @@
 # OpenSkillsmd: AIエージェントの「進化」を再定義する
 
-[English](./README.md) | [简体中文](./README.zh.md) | [日本語](./README.ja.md) | [Français](./README.fr.md)
+[English](./README.md) | [简体中文](./README.zh.md) | [日本語](./README.ja.md) 
 
 OpenSkillsmdは、AIエージェントスキルのためのオープンソース・インフラです。スキルの**配布センター (Docker Hub)** であると同時に、グローバルなエージェントスキルの**百科事典 (Wikipedia)** でもあります。
 
