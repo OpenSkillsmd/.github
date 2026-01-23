@@ -30,3 +30,36 @@ OpenSkillsmd 是一个面向 AI Agent 技能的开源基础设施。我们不仅
 | **`skillsmd-hub`** | **分发中心 (Registry)** | 核心后端服务，负责存储 Skill 版本、处理 API 请求与元数据索引。 | **Docker Hub** |
 | **`skillsmd-wiki`** | **知识协作库 (Content)** | 存放按类别组织的优质 `skill.md` 文档，支持社区协作与修订。 | **Wikipedia** |
 | **`skillsmd-judge`** | **评估引擎 (Evaluator)** | AI 驱动的自动化评分系统，负责对提交的 Skill 进行质量定级。 | **质量基准** |
+
+
+## 🔗 工作流程
+```mermaid
+graph TD
+    %% 节点定义
+    User((开发者/用户))
+    CLI["skillsmd (CLI 工具)"]
+    Hub["skillsmd-hub (分发中心)"]
+    Judge["skillsmd-judge (评估引擎)"]
+    Wiki["skillsmd-wiki (百科仓库)"]
+
+    %% 核心流程
+    User -- "1. 编写与推送 (push)" --> CLI
+    CLI -- "2. 存储与版本管理" --> Hub
+    Hub -- "3. 触发自动化评估" --> Judge
+    Judge -- "4. 返回评分与认证 (Badge)" --> Hub
+    Hub -- "5. 自动同步/索引优质内容" --> Wiki
+
+    %% 用户获取流程
+    User -- "6. 搜索与下载 (pull)" --> CLI
+    CLI -- "7. 从 Registry 获取文件" --> Hub
+
+    %% 协作流程
+    User -- "8. 手动编辑/贡献" --> Wiki
+    Wiki -- "9. 内容反馈" --> Hub
+
+    %% 样式美化
+    style CLI fill:#f9f,stroke:#333,stroke-width:2px
+    style Hub fill:#bbf,stroke:#333,stroke-width:2px
+    style Wiki fill:#bfb,stroke:#333,stroke-width:2px
+    style Judge fill:#fbb,stroke:#333,stroke-width:2px
+```
