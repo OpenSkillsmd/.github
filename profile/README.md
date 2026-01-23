@@ -26,7 +26,7 @@ Driven by AI, our automated evaluation system scores public skills across multip
 
 | Repository | Role | Description | Vision |
 | :--- | :--- | :--- | :--- |
-| **`skillsmd`** | **CLI** | The binary tool for `pull`, `push`, and `run`. | Productivity |
+| **`skillsmd`** | **CLI** | The binary tool for `pull`, `push`. | Productivity |
 | **`skillsmd-hub`** | **Registry** | Core backend for versioning, API, and metadata. | Distribution |
 | **`skillsmd-wiki`** | **Content** | Human-readable, categorized `skill.md` library. | Knowledge |
 | **`skillsmd-judge`** | **Evaluator** | AI-powered scoring and certification engine. | Quality |
