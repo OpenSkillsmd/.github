@@ -1,19 +1,16 @@
 ## Hi there 👋
 
-### 我们的使命 
-OpenSkillMD 致力于构建全球领先的 AI Agent 技能注册表与分发平台。我们通过标准化的 skill.md 规范，打破 Prompt 与 Agent 技能之间的孤岛，让开发者能够像管理 Docker 镜像一样管理 AI 技能。
+### OpenSkillsmd: 重新定义 Agent 的“进化”方式
+OpenSkillsmd 是一个面向 AI Agent 技能的开源基础设施。我们不仅是技能的分发中心 (Docker Hub)，更是全球 Agent 技能的百科全书 (Wikipedia)。
 
-### 核心愿景
-标准化 (Standardization)： 定义一套通用的 skill.md 协议，让每一项 Agent 技能都具备版本控制、参数定义与环境适应性。
+📦 像 Docker 一样高效分发 通过标准化的 skill.md 协议，实现 Agent 技能的 pull 与 push。开发者可以一键下载官方认证或社区贡献的优质技能，实现 Agent 能力的瞬时扩展与即插即用。
 
-无缝分发 (Seamless Distribution)： 建立类似于 pull 和 push 的分发机制，实现 Agent 技能的一键下载与即插即用。
+📖 像 Wikipedia 一样共建知识 每一条 skill.md 都是 Agent 智慧的结晶。我们鼓励社区像编辑维基百科一样，持续迭代、交叉引用并完善技能文档，让 Agent 的指令集、工具定义与边界说明变得结构化、透明化。
 
-质量基准 (Quality Benchmarking)： 引入自动化的 AI 评估与评分系统，确保社区中的每一项“官方认证”或“个人贡献”技能都经过严格的质量校验。
-
-社区驱动 (Community-Driven)： 连接全球开发者，打造一个可复用、可评估、可信赖的 Agent 技能生态，加速 AI 应用从 Demo 走向生产环境。
+📊 像评测机构一样客观打分 基于 AI 驱动的自动化评估系统，我们对公开的技能进行多维度评分（指令质量、稳定性、适应性）。只有通过严格评估的技能才能获得“官方认证”，确保开发者下载的每一行代码都是生产可用的。
 
 ### 核心口号
-"Pull high-quality skills, Push the boundaries of Agents." (下载优质技能，推高 Agent 边界)
+"Pull high-quality skills, Edit the future of Agents." 
 
 <!--
 
