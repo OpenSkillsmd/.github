@@ -26,7 +26,7 @@ OpenSkillsmd 是一个面向 AI Agent 技能的开源基础设施。我们不仅
 
 | 仓库名称 | 核心角色 | 职责描述 | 对应愿景 |
 | :--- | :--- | :--- | :--- |
-| **`skillsmd`** | **命令行入口 (CLI)** | 用户安装的二进制工具，支持 `pull/push/run` 等命令。 | **生产力工具** |
+| **`skillsmd`** | **命令行入口 (CLI)** | 用户安装的二进制工具，支持 `pull/push` 等命令。 | **生产力工具** |
 | **`skillsmd-hub`** | **分发中心 (Registry)** | 核心后端服务，负责存储 Skill 版本、处理 API 请求与元数据索引。 | **Docker Hub** |
 | **`skillsmd-wiki`** | **知识协作库 (Content)** | 存放按类别组织的优质 `skill.md` 文档，支持社区协作与修订。 | **Wikipedia** |
 | **`skillsmd-judge`** | **评估引擎 (Evaluator)** | AI 驱动的自动化评分系统，负责对提交的 Skill 进行质量定级。 | **质量基准** |
