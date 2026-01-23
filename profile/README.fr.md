@@ -26,7 +26,7 @@ Piloté par l'IA, notre système d'évaluation automatique note les compétences
 
 | Dépôt | Rôle | Description | Vision |
 | :--- | :--- | :--- | :--- |
-| **`skillsmd`** | **CLI** | Outil binaire supportant `pull`, `push` et `run`. | Productivité |
+| **`skillsmd`** | **CLI** | Outil binaire supportant `pull`, `push`. | Productivité |
 | **`skillsmd-hub`** | **Registry** | Backend pour le versionnage, l'API et les métadonnées. | Distribution |
 | **`skillsmd-wiki`** | **Contenu** | Bibliothèque de `skill.md` classée par catégories. | Connaissance |
 | **`skillsmd-judge`** | **Évaluateur** | Moteur de notation et de certification basé sur l'IA. | Qualité |
