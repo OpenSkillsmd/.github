@@ -1,6 +1,6 @@
 # OpenSkillsmd: 重新定义 Agent 的“进化”方式
 
-[English](./README.md) | [简体中文](./README.zh.md) | [日本語](./README.ja.md) | [Français](./README.fr.md)
+[English](./README.md) | [简体中文](./README.zh.md) | [日本語](./README.ja.md) 
 
 OpenSkillsmd 是一个面向 AI Agent 技能的开源基础设施。我们不仅是技能的**分发中心 (Docker Hub)**，更是全球 Agent 技能的**百科全书 (Wikipedia)**。
 
