@@ -37,16 +37,31 @@ Driven by AI, our automated evaluation system scores public skills across multip
 
 ```mermaid
 graph TD
-    User((Developer))
-    CLI["skillsmd (CLI)"]
+    %% Node Definitions
+    User((Developer/User))
+    CLI["skillsmd (CLI Tool)"]
     Hub["skillsmd-hub (Registry)"]
     Judge["skillsmd-judge (Judge)"]
-    Wiki["skillsmd-wiki (Wiki)"]
+    Wiki["skillsmd-wiki (Wiki Repo)"]
 
-    User -- "1. push skill.md" --> CLI
-    CLI -- "2. Versioning" --> Hub
-    Hub -- "3. Trigger Eval" --> Judge
-    Judge -- "4. Return Score" --> Hub
-    Hub -- "5. Index to Wiki" --> Wiki
-    User -- "6. pull skill" --> CLI
-    CLI -- "7. Fetch from Hub" --> Hub
+    %% Core Flow: Push
+    User -- "1. Write & Push" --> CLI
+    CLI -- "2. Storage & Versioning" --> Hub
+    Hub -- "3. Trigger Auto-Eval" --> Judge
+    Judge -- "4. Return Score & Badge" --> Hub
+    Hub -- "5. Sync/Index Quality Content" --> Wiki
+
+    %% User Flow: Pull
+    User -- "6. Search & Pull" --> CLI
+    CLI -- "7. Fetch from Registry" --> Hub
+
+    %% Collaboration Flow
+    User -- "8. Manual Edit/Contribute" --> Wiki
+    Wiki -- "9. Content Feedback" --> Hub
+
+    %% Styling
+    style CLI fill:#f9f,stroke:#333,stroke-width:2px
+    style Hub fill:#bbf,stroke:#333,stroke-width:2px
+    style Wiki fill:#bfb,stroke:#333,stroke-width:2px
+    style Judge fill:#fbb,stroke:#333,stroke-width:2px
+```
