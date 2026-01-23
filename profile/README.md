@@ -26,6 +26,7 @@ OpenSkillsmd 是一个面向 AI Agent 技能的开源基础设施。我们不仅
 ---
 
 ### 💡 架构设计逻辑
+```mermaid
 graph TD
     %% 节点定义
     User((开发者/用户))
@@ -40,11 +41,11 @@ graph TD
     Hub -- "3. 触发自动化评估" --> Judge
     Judge -- "4. 返回评分与认证 (Badge)" --> Hub
     Hub -- "5. 自动同步/索引优质内容" --> Wiki
-    
+
     %% 用户获取流程
     User -- "6. 搜索与下载 (pull)" --> CLI
     CLI -- "7. 从 Registry 获取文件" --> Hub
-    
+
     %% 协作流程
     User -- "8. 手动编辑/贡献" --> Wiki
     Wiki -- "9. 内容反馈" --> Hub
@@ -54,3 +55,4 @@ graph TD
     style Hub fill:#bbf,stroke:#333,stroke-width:2px
     style Wiki fill:#bfb,stroke:#333,stroke-width:2px
     style Judge fill:#fbb,stroke:#333,stroke-width:2px
+```
